@@ -1,7 +1,7 @@
-# E-Commerce Sales Analysis — MySQL
+# E-Commerce Sales Analytics — SQL | Python | Power BI
 
 ## Project Overview
-This project analyzes an e-commerce sales dataset using MySQL to understand sales, profit, orders, products, categories, cities, monthly performance, order status, payment methods, and customer behavior.
+This end-to-end e-commerce sales analytics project uses MySQL, Python, Excel and Power BI to analyze sales, profit, orders, products, categories, cities, monthly performance, order status, payment methods, and customer behavior.
 
 ## Business Objective
 - Measure overall sales and profitability
@@ -22,6 +22,26 @@ This project analyzes an e-commerce sales dataset using MySQL to understand sale
 ## SQL Skills Demonstrated
 SELECT, aliases, SUM(), COUNT(), ROUND(), GROUP BY, ORDER BY, WHERE, HAVING, LIMIT, STR_TO_DATE(), MONTH(), MONTHNAME(), profit-margin calculations, AOV, and Top-N analysis.
 
+## Python Analysis
+Python was used for data cleaning, validation, exploratory data analysis, calculations, and visualization.
+
+### Python Skills Demonstrated
+- Pandas for data loading, cleaning, manipulation, aggregation, and analysis
+- NumPy for numerical calculations
+- Matplotlib and Seaborn for data visualization
+- Missing-value checks and data-quality validation
+- GroupBy-based category, product, city, monthly, and customer analysis
+- Exploratory analysis to identify trends and business insights
+
+## Power BI Dashboard
+Built an interactive Power BI dashboard to present KPIs, sales and profit trends, category performance, city performance, payment methods, and slicer-based analysis.
+
+### Power BI KPIs
+- Total Sales: **₹60.38L**
+- Total Profit: **₹19.69L**
+- Total Orders: **1,800**
+- Profit Margin: **32.61%**
+
 ## Key Business Insights
 1. Electronics had the highest category sales: **₹17.08L**.
 2. Stationery had the highest category profit margin: **51.37%**.
@@ -36,7 +56,7 @@ SELECT, aliases, SUM(), COUNT(), ROUND(), GROUP BY, ORDER BY, WHERE, HAVING, LIM
 
 ## Project Structure
 ```text
-Ecommerce-Sales-SQL-Analysis/
+Ecommerce-Sales-Analytics/
 ├── README.md
 ├── SQL/
 │   ├── 01_database_setup.sql
@@ -49,20 +69,25 @@ Ecommerce-Sales-SQL-Analysis/
 │   ├── 08_order_status_analysis.sql
 │   ├── 09_payment_analysis.sql
 │   └── 10_customer_analysis.sql
+├── Python/
+│   └── e_commerce_sales_analysis.ipynb
+├── PowerBI/
+│   └── Ecommerce-Sales-Analytics-Dashboard.pbix
+├── Dataset/
 └── screenshots/
 ```
 
 ## How to Run
-1. Open MySQL Workbench.
-2. Create/select `ecommerce_db`.
-3. Import the cleaned CSV into `ecommerce_sales`.
-4. Run the SQL files in order.
-5. Review the result sets and business findings.
+1. Load the cleaned e-commerce dataset.
+2. Create/select `ecommerce_db` in MySQL Workbench and run the SQL files in order.
+3. Open the Python notebook for cleaning, exploratory analysis, calculations, and visualizations.
+4. Open the Power BI `.pbix` file to explore the interactive dashboard and slicers.
+5. Review the business insights and findings.
 
 ## Resume Description
-**E-Commerce Sales Analysis — SQL | MySQL**
+**E-Commerce Sales Analytics — SQL | Python | Power BI**
 
-Analyzed 1,800 e-commerce orders using MySQL to evaluate sales, profit, product, category, customer, city, payment-method, order-status, and monthly performance. Applied SQL aggregation, filtering, grouping, sorting, date functions, and customer-level analysis to generate business insights and evaluate an overall profit margin of 32.61%.
+Performed end-to-end analysis of 1,800 e-commerce orders using MySQL, Python and Power BI. Cleaned and analyzed data, evaluated sales and profitability across products, categories, cities, customers, payment methods and order status, and built an interactive Power BI dashboard with KPI cards, trends and slicers. Achieved an overall profit margin analysis of 32.61%.
 
 ## Author
 Gaurav Chauhan
